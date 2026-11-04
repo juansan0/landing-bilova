@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Taller Bilova | Chapa y pintura en Neuquén capital</title>
+    <meta
+      name="description"
+      content="Taller de chapa y pintura en Dr. Teodoro Luis Planas 5261, Neuquén capital. Golpes, encuadre, pintura y sacabollos. Trabaja con todas las aseguradoras. Mandá las fotos por WhatsApp."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#3d2b1f" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:site_name" content="Taller Bilova" />
+    <meta property="og:title" content="Taller Bilova | Chapa y pintura en Neuquén" />
+    <meta
+      property="og:description"
+      content="Taller de chapa y pintura en Neuquén capital. Mandá las fotos del auto por WhatsApp y te pasamos el presupuesto."
+    />
+    <!-- Sin og:image todavía: la foto real que usamos es de su Instagram,
+         no vale como imagen de preview hasta tener permiso explícito. -->
+
+    <!-- Datos estructurados. Sólo van las propiedades confirmadas.
+         Falta "url", hasta que haya dominio (ver DATOS A COMPLETAR en src/main.js).
+         No va "openingHoursSpecification": el horario es irregular día por
+         día y no vale la pena forzarlo al formato de schema.org sin
+         confirmarlo antes con el taller.
+         No va "aggregateRating": marcar como propio un puntaje tomado de Google
+         va contra las políticas de resultados enriquecidos. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "Taller Bilova",
+        "description": "Taller de chapa y pintura en Neuquén capital. Reparación de golpes, encuadre de piezas, pintura y sacabollos. Trabaja con aseguradoras.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Dr. Teodoro Luis Planas 5261",
+          "addressLocality": "Neuquén",
+          "addressRegion": "Neuquén",
+          "postalCode": "Q8300",
+          "addressCountry": "AR"
+        },
+        "telephone": "+54-299-469-8624",
+        "sameAs": "https://www.instagram.com/taller_bilova",
+        "areaServed": { "@type": "City", "name": "Neuquén" }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&display=swap"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
